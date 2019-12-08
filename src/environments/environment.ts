@@ -3,8 +3,18 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
-};
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyCyTiIE0D7YyKk-OEKrvxodnz7i0s5vqKo',
+    authDomain: 'rsvp-event-manager.firebaseapp.com',
+    databaseURL: 'https://rsvp-event-manager.firebaseio.com',
+    projectId: 'rsvp-event-manager',
+    storageBucket: 'rsvp-event-manager.appspot.com',
+    messagingSenderId: '1066137847800',
+    appId: '1:1066137847800:web:a8e278845fd580d1b0780d'
+  }
+}
+;
 
 /*
  * For easier debugging in development mode, you can import the following file
